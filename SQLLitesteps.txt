@@ -30,3 +30,28 @@ CREATE TABLE IF NOT EXISTS destination_table (
 select * from destination_table;
 
 Ctrl + D to exit
+
+
+https://medium.com/international-school-of-ai-data-science/setting-up-apache-airflow-in-macos-57ab9e8edb8a
+
+pip3 install apache-airflow[gcp,sentry,statsd]
+pip3 install pyspark
+pip3 install sklearn
+
+Initialization of Airflow Database
+cd airflow
+airflow db init
+
+mkdir dags
+
+Creating a New Airflow User
+airflow users create --username admin --password your_password --firstname your_first_name --lastname your_last_name --role Admin --email your_email@some.com
+
+airflow users list
+
+Running of the Airflow Scheduler and Webserver
+airflow scheduler
+source airflow_env/bin/activate
+cd airflow
+airflow webserver
+
