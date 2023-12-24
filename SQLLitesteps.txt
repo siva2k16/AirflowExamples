@@ -31,10 +31,12 @@ select * from destination_table;
 
 Ctrl + D to exit
 
+pip install pybind11-global==2.10.4
+pip install pyre2
+pip install Cmake
 
-https://medium.com/international-school-of-ai-data-science/setting-up-apache-airflow-in-macos-57ab9e8edb8a
 
-pip3 install apache-airflow[gcp,sentry,statsd]
+pip3 install apache-airflow
 pip3 install pyspark
 pip3 install sklearn
 
