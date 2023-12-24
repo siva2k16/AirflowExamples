@@ -1,11 +1,15 @@
-sqlite3 --version
+
 
 brew install sqlite
+
+sqlite3 --version
+
+
 
 Create a New Database and Connect to It:
 
 sqlite3 /path/to/your/newdb.db
-
+sqlite3  /Users/siva/Documents/PythonExamples/airflowsetup/newdb.db
 
 CREATE TABLE source_table (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
