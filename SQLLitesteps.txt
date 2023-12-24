@@ -40,7 +40,7 @@ pip install "apache-airflow[celery]==2.6.1" --constraint "https://raw.githubuser
 
 #pip3 install apache-airflow
 pip3 install pyspark
-
+pip install Jinja2==3.0.3
 
 Initialization of Airflow Database
 #cd airflow
