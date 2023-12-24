@@ -1,0 +1,19 @@
+sqlite3 --version
+
+brew install sqlite
+
+Create a New Database and Connect to It:
+
+sqlite3 /path/to/your/newdb.db
+
+
+CREATE TABLE source_table (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    data TEXT
+);
+
+
+INSERT INTO source_table (data) VALUES ('Sample Data 1');
+INSERT INTO source_table (data) VALUES ('Sample Data 2');
+
+SELECT * FROM source_table;
