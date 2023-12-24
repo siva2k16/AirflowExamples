@@ -21,3 +21,5 @@ INSERT INTO source_table (data) VALUES ('Sample Data 1');
 INSERT INTO source_table (data) VALUES ('Sample Data 2');
 
 SELECT * FROM source_table;
+
+Ctrl + D to exit
