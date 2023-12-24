@@ -40,10 +40,10 @@ pip install "apache-airflow[celery]==2.6.1" --constraint "https://raw.githubuser
 
 #pip3 install apache-airflow
 pip3 install pyspark
-pip3 install sklearn
+
 
 Initialization of Airflow Database
-cd airflow
+#cd airflow
 airflow db init
 
 mkdir dags
@@ -58,4 +58,6 @@ airflow scheduler
 source airflow_env/bin/activate
 cd airflow
 airflow webserver
+lsof -n -i4TCP:8080 
+kill pid
 
