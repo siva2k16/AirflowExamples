@@ -36,8 +36,9 @@ pip install pyre2
 pip install Cmake
 pip3 install --upgrade pip
 brew update 
+pip install "apache-airflow[celery]==2.6.1" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.6.1/constraints-3.7.txt"
 
-pip3 install apache-airflow
+#pip3 install apache-airflow
 pip3 install pyspark
 pip3 install sklearn
 
