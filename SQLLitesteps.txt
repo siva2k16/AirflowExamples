@@ -34,7 +34,7 @@ Ctrl + D to exit
 pip install pybind11-global==2.10.4
 pip install pyre2
 pip install Cmake
-
+pip3 install --upgrade pip
 
 pip3 install apache-airflow
 pip3 install pyspark
