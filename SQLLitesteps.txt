@@ -22,4 +22,11 @@ INSERT INTO source_table (data) VALUES ('Sample Data 2');
 
 SELECT * FROM source_table;
 
+CREATE TABLE IF NOT EXISTS destination_table (
+    id INTEGER PRIMARY KEY,
+    data TEXT
+);
+
+select * from destination_table;
+
 Ctrl + D to exit
